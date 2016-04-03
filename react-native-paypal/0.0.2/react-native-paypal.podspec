@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.source_files     = "ReactPaypal/MFLReactNativePayPal/*.{h,m}"
 
   s.dependency "React"
+  s.dependency "PayPal-iOS-SDK"
 end
